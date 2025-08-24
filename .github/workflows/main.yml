@@ -1,12 +1,12 @@
 import { connect } from "cloudflare:sockets";
 
 // Variables
-const rootDomain = "spiritlbk.ggff.net"; // Ganti dengan domain utama kalian
-const serviceName = "starplus"; // Ganti dengan nama workers kalian
+const rootDomain = "askarma.ggff.net"; // Ganti dengan domain utama kalian
+const serviceName = "askar"; // Ganti dengan nama workers kalian
 const apiKey = "7VSv0Orix1I-ASUG7deBcR-tPy76Mf9Exv8hSHW3"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
-const apiEmail = "bimasteel78@gmail.com"; // Ganti dengan email yang kalian gunakan
-const accountID = "20dce7d8a2eca7680a25ef6484fb9f62"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
-const zoneID = "2ecdae0c9b4b944f7c62e92f6b188152"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const apiEmail = "askarputra5351@gmail.com"; // Ganti dengan email yang kalian gunakan
+const accountID = "85d0516b28a90d027cd9155cd887a6b3"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const zoneID = "97f90030a751c2e738a4ec03a30cc1d2"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = false;
 let proxyIP = "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/refs/heads/main/proxyList.txt";
 let cachedProxyList = [];
